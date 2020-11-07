@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hmo3nzv.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+JP:wght@100;400&family=Roboto:ital,wght@0,300;1,700&family=Spartan:wght@400;800&display=swap" rel="stylesheet">
+        
+        <title>雑穀米の楽しみ方（炊き方&レシピ）</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            
+            <header class="header" id="header">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="有限会社五穀米"></a></div><!-- /.logo --> 
+                <!-- ハンバーガーメニュー部分 -->
+                <div class="drawer">                
+                    <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                    <input type="checkbox" id="drawer-check" class="drawer-hidden" >                
+                    <!-- ハンバーガーアイコン -->
+                    <label for="drawer-check" class="drawer-open"><span></span></label>                
+                    <!-- メニュー -->
+                    <nav class="drawer-content">
+                        <ul class="drawer-list layer1">
+                            <li class="drawer-item">
+                                <a href="index.html">TOPページ</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="index.html#product">商品一覧</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="our.html">私たちについて</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="recipe.html">雑穀米の楽しみ方（炊き方&レシピ）</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="pride.html">美味しさのこだわり</a>
+                            </li>
+                        </ul><!-- /.drawer-list -->
+                        <ul class="drawer-list layer2">
+                            <li class="drawer-item">
+                                <a href="index.html#news">お知らせ</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="contact.html#contactHeaderLink">お問い合わせ</a>
+                            </li>
+                        </ul>
+                        <ul class="drawer-list layer3">
+                            <li class="drawer-item">
+                                <a href="contact.html">会社概要</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="privacy.html">プライバシーポリシー</a>
+                            </li>
+                        </ul><!-- /.drawer-list -->
+                    </nav>
+                </div>                 
+                <!-- ハンバーガーメニュー部分 -->
+            </header>
+        
+                <section id="recipe">
+                    <div class="recipesection">
+                    
+                        <div class="line">
+                            <div class="recipe__lead">
+                                <div class="recipe__leadwrapper">
+                                    <h1>RECIPE</h1>
+                                    <p class="recipe__leadtext">ここでは雑穀米の基本の炊き方とプロ監修のおすすめアレンジレシピを紹介します。ぜひご家庭で試されて美味しくて健康にいいご飯を楽しんでみてください。</p>
+                                </div>
+                            </div>
+                            
+
+                            <div id="recipewrap">
+                                <div id="recipe1" class="recipecontent scroll-effect">
+                                    <div class="recipetitle">まずは基本。</div>
+                                    <img src="images/recipe01.jpg" alt="五穀米の写真">
+                                    <h2>五穀米膳</h2>
+                                    <div class="recipe__box"></div>
+                                    <div class="recipeWrap">
+                                        <dl class="ingredient">
+                                            <dt>材料</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>白米……１合</li>
+                                                    <li>水……１合のお米の分量＋大さじ１（約15 ml）</li>
+                                                    <li>五穀米膳……大さじ１(約15 g)</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                        <div class="recipe__box sp"></div>
+                                        <dl class="howto">
+                                            <dt>作り方</dt>
+                                            <dd>
+                                                <ol>
+                                                    <li>米１合分の白米をいつもどおりを研ぎ、水もいつも分量入れる。</li>
+                                                    <li>五穀米とお水をそれぞれ大さじ１ずつ入れ、お好みで白米一合あたり塩ひとつまみを加え、よくかき混ぜてから１時間以上ひたす。</li>
+                                                    <li>あとはいつも通り炊くだけ。あっという間に美味しい雑穀米の完成。</li>
+                                                </ol>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div id="recipe2" class="recipecontent scroll-effect">
+                                    <div class="recipetitle arrangedTitle">arranged recipe 0１</div>
+                                    <img src="images/recipe02.jpg" alt="五穀米ピザの写真">
+                                    <h2>五穀米ピザ</h2>
+                                    <div class="recipe__box"></div>
+                                    <div class="recipeWrap">
+                                        <dl class="ingredient">
+                                            <dt>材料</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>A.白ゴマ……大さじ2</li>
+                                                    <li>A.塩……小さじ1</li>
+                                                    <li>B.アンチョビフィレ……6枚(手でちぎる)</li>
+                                                    <li>B.チェリートマト……6～8個(4つ切り)</li>
+                                                    <li>B.米……1カップ</li>
+                                                    <li>B.福っくら御膳……大さじ3</li>
+                                                    <li>B.水……250㏄</li>
+                                                    <li>B.モッツァレラチーズ……1玉</li>
+                                                    <li>B.パルメジャーノ(チーズ)……大さじ4</li>
+                                                    <li>大葉……5～6枚(手でちぎる)</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                        <div class="recipe__box sp"></div>
+                                        <dl class="howto">
+                                            <dt>作り方</dt>
+                                            <dd>
+                                                <ol>
+                                                    <li>米はといで、1O分浸水させ、15分水切りしておく。米に福っくら御膳を合わせ、水を加えて炊き上げ、10分蒸らす。</li>
+                                                    <li>Aを加え、切るように混せ合わせる。おむすびを握る要領で1膳分のご飯をまとめる。</li>
+                                                    <li>天板にオリーブオイルを伸ばし、半量を直径15㎝大、厚さ5㎜程になるように、手で押さえながら広げる。同様にもう1枚つくる。</li>
+                                                    <li>それぞれの上に半量ずつ、チーズとBをのせ、250～300度のオーブンで7～10分、 チーズに焼き色が少しつくまで焼く。焼き上がったら、ちぎった大葉をあしらって完成。</li>
+                                                </ol>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+ 
+                                <div id="recipe3" class="recipecontent scroll-effect">
+                                    <div class="recipetitle arrangedTitle">arranged recipe 02</div>
+                                    <img src="images/recipe03.jpg" alt="五穀米サラダの写真">
+                                    <h2>五穀米サラダ</h2>
+                                    <div class="recipe__box"></div>
+                                    <div class="recipeWrap">
+                                        <dl class="ingredient">
+                                            <dt>材料</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>A.米1カップ1カップ</li>
+                                                    <li>A.福っくら御膳……1/3カップ</li>
+                                                    <li>A.水……200㏄強</li>
+                                                    <li>B.ドレッシング……50㏄</li>
+                                                    <li>B.オリーブオイル……50㏄</li>
+                                                    <li>B.フレンチマスタード……小さじ1</li>
+                                                    <li>B.塩小さじ……1/2</li>
+                                                    <li>B.こしょう……少々</li>
+                                                    <li>B.白ワインビネガー……大さじ2</li>
+                                                    <li>B.福っくら御膳……大さじ1</li>
+                                                    <li>B.れんこん……1/2節</li>
+                                                    <li>B.米酢……大さじ1</li>
+                                                    <li>B.玉ねぎ……1/2個</li>
+                                                    <li>B.セロリ……1/2本</li>
+                                                    <li>B.きゅうり……1/2本</li>
+                                                    <li>B.パプリカ(黄)……1/2個</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                        <div class="recipe__box sp"></div>
+                                        <dl class="howto">
+                                            <dt>作り方</dt>
+                                            <dd>
+                                                <ol>
+                                                    <li>米はといで、1O分浸水させ、15分水切りしておく。Bのドレッシングは合わせておく。</li>
+                                                    <li>玉ねぎは2cmの長さの薄切りにして水にさらす。れんこんは2cm長さの薄切りにし、米酢を加えた熱湯でサッとゆでてザルにあげ、 広げて冷ます。玉ねぎは水をきり、セロリは3㎝長さの短冊切りにする。きゅうりは縦半分に切ってから種を取り、3㎝長さの短冊切りにする。パプリカは種とわたを取り、厚さ5mm・長さ3㎝の千切りにする。</li>
+                                                    <li>土鍋にAを入れて強火にかけ、沸き立ったらフタをして弱火で炊き上げる。炊き上がったら福っくら御膳大さじ1を加え、10分蒸らして切るように混せる。
+                                                    <br>POINT：鍋中の温度を一定にするために沸き立ったところで一度、上下に混せる!!
+                                                    </li>
+                                                    <li>炊き上がったご飯をボウルにうつし、熱いうちにBのドレッシングを回しかけ、 玉ねぎ・れんこん・セロリの順に加えて混ぜる。粗熱がとれたら、きゅうり・パプリカを合わせて、15分程冷蔵庫に置いて 馴染ませたら出来上がり。</li>
+                                                </ol>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer id="footer">
+                    <!-- ▼フッター -->
+                    <div class="footer">
+                        <div class="footerTop">
+                            <div class="footerLeft">
+                                <h2 class="footerTitle">SITE MAP</h2>
+                                <div class="whiteLogo__pc">
+                                <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                                </div>
+                        </div>
+                            <ul class="footerCenter">
+                                <a href="index.html">
+                                    <li>ホーム</li>
+                                </a>
+                                <a href="index.html#product">
+                                    <li>商品一覧</li>
+                                </a>
+                                <a href="our.html">
+                                    <li>私たちについて</li>
+                                </a>
+                                <a href="recipe.html">
+                                    <li>雑穀米の楽しみ方</li>
+                                </a>
+                                <a href="pride.html">
+                                    <li>美味しさのこだわり</li>
+                                </a>
+                                
+                               
+                            </ul>
+                            <ul class="footerRight">
+                                <a href="contact.html">
+                                    <li>会社概要</li>
+                                </a>
+                                <a href="contact.html#contactHeaderLink" class="footerForm">
+                                    <li>お問い合わせ</li>
+                                </a>
+                                <a href="privacy.html">
+                                    <li>プライバシーポリシー</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="whiteLogo__sp">
+                            <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                        </div>
+                        <p class="footer__copyright">© 2020  有限会社五穀米販売 All Right Reserved.</p>
+                    </div>
+                </footer>
+
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+
+    
+</div>
+            
+         
+
+
+    
+</body>
+</html>

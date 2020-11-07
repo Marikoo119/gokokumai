@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hmo3nzv.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+JP:wght@100;400&family=Roboto:ital,wght@0,300;1,700&family=Spartan:wght@400;800&display=swap" rel="stylesheet">
+        <title>会社概要</title>
+    </head>
+<body>
+    <div id="wrapper">
+            
+        <header class="header" id="header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="有限会社五穀米"></a></div><!-- /.logo --> 
+            <!-- ハンバーガーメニュー部分 -->
+            <div class="drawer">                
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input type="checkbox" id="drawer-check" class="drawer-hidden" >                
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer-check" class="drawer-open"><span></span></label>                
+                <!-- メニュー -->
+                <nav class="drawer-content">
+                    <ul class="drawer-list layer1">
+                        <li class="drawer-item">
+                            <a href="index.html">TOPページ</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="index.html#product">商品一覧</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="our.html">私たちについて</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="recipe.html">雑穀米の楽しみ方（炊き方&レシピ）</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="pride.html">美味しさのこだわり</a>
+                        </li>
+                    </ul><!-- /.drawer-list -->
+                    <ul class="drawer-list layer2">
+                        <li class="drawer-item">
+                            <a href="index.html#news">お知らせ</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="contact.html#contactHeaderLink">お問い合わせ</a>
+                        </li>
+                    </ul>
+                    <ul class="drawer-list layer3">
+                        <li class="drawer-item">
+                            <a href="contact.html">会社概要</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul><!-- /.drawer-list -->
+                </nav>
+            </div>                 
+            <!-- ハンバーガーメニュー部分 -->
+        </header>
+        <figure>
+            <img src="images/company.jpg"  class="companyTopImg__pc" alt="麦膳">
+            
+        </figure>
+        <section id="company">
+            <h1 class="companyTitle">COMPANY</h1>
+            <p class="company__ja">会社概要</p>
+            
+
+                <div class="Company">
+                                <div class="Company-Item">
+                                  <p class="Company-Item-Label">会社名</p>
+                                  <p class="Company-Item-content">有限会社 五穀米販売</p>
+                                </div>
+                                <div class="Company-Item">
+                                    <p class="Company-Item-Label">創業</p>
+                                    <p class="Company-Item-content">1998年5月（平成10年）</p>
+                                </div>
+                                <div class="Company-Item">
+                                  <p class="Company-Item-Label">代表取締役</p>
+                                  <p class="Company-Item-content">松丸 昇</p>
+                                </div>
+                                <div class="Company-Item">
+                                    <p class="Company-Item-Label">事業内容</p>
+                                    <p class="Company-Item-content">国内産穀物卸売業・雑穀PB商品、
+                                        ノベルティー開発・雑穀メニュー提案</p>
+                                  </div>
+                                
+                </div>
+
+            
+        </section>
+    
+        <figure id="contactHeaderLink">
+            <img src="images/contact1.jpg"  class="contactTopImg__pc" alt="はと麦">
+            <img src="images/contact1sp.jpg"  class="contactTopImg__sp" alt="はと麦">
+        </figure>
+        
+        <section id="contact">
+            <h1 class="contactTitle ">CONTACT</h1>
+            <p class="contactTitle__ja">お問い合わせ</p>
+            <p class="contactTitle_text">商品に関するご質問やご相談など、お気軽にお問い合わせください。</p>
+            <form action="#" id="form">
+                <div class="Form">
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">お問い合わせ内容</p>
+                        <div class="inquiry radio"><input type="radio" name="inquiry" value="商品について" ><span class="inquiryText">商品について</span></div>
+                        <div class="inquiry radio"><input type="radio" name="inquiry" value="発送について"><span class="inquiryText">発送について</span></div>
+                        <div class="inquiry radio"><input type="radio" name="inquiry" value="その他"><span class="inquiryText">その他</span></div> 
+                    </div>       
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">氏名</p>
+                        <input type="text" class="Form-Item-Input" placeholder="例）山田 花子">
+                    </div>
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">電話番号</p>
+                        <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+                    </div>
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label">メールアドレス</p>
+                        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+                    </div>
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label isMsg">お問い合わせ内容</p>
+                        <textarea class="Form-Item-Textarea" placeholder="お問い合わせ内容を記述してください。"></textarea>
+                    </div>
+                    <input type="submit" class="Form-Btn" value="送信する">
+                </div> 
+            </form> 
+        </section>
+        <footer id="footer">
+            <!-- ▼フッター -->
+            <div class="footer">
+                <div class="footerTop">
+                    <div class="footerLeft">
+                        <h2 class="footerTitle">SITE MAP</h2>
+                        <div class="whiteLogo__pc">
+                        <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                        </div>
+                </div>
+                    <ul class="footerCenter">
+                        <a href="index.html">
+                            <li>ホーム</li>
+                        </a>
+                        <a href="index.html#product">
+                            <li>商品一覧</li>
+                        </a>
+                        <a href="our.html">
+                            <li>私たちについて</li>
+                        </a>
+                        <a href="recipe.html">
+                            <li>雑穀米の楽しみ方</li>
+                        </a>
+                        <a href="pride.html">
+                            <li>美味しさのこだわり</li>
+                        </a>
+                        
+                       
+                    </ul>
+                    <ul class="footerRight">
+                        <a href="contact.html">
+                            <li>会社概要</li>
+                        </a>
+                        <a href="contact.html#contactHeaderLink" class="footerForm">
+                            <li>お問い合わせ</li>
+                        </a>
+                        <a href="privacy.html">
+                            <li>プライバシーポリシー</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="whiteLogo__sp">
+                    <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                </div>
+                <p class="footer__copyright">© 2020  有限会社五穀米販売 All Right Reserved.</p>
+            </div>
+        </footer>
+	
+</div>	 
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

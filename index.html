@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hmo3nzv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+JP:wght@100;400&family=Roboto:ital,wght@0,300;1,700&family=Spartan:wght@400;800&display=swap" rel="stylesheet">
+    <title>Topページ</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="有限会社五穀米"></a></div><!-- /.logo --> 
+            <!-- ハンバーガーメニュー部分 -->
+            <div class="drawer">                
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input type="checkbox" id="drawer-check" class="drawer-hidden" >                
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer-check" class="drawer-open"><span></span></label>                
+                <!-- メニュー -->
+                <nav class="drawer-content">
+                    <ul class="drawer-list layer1">
+                        <li class="drawer-item">
+                            <a href="index.html">TOPページ</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="index.html#product">商品一覧</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="our.html">私たちについて</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="recipe.html">雑穀米の楽しみ方（炊き方&レシピ）</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="pride.html">美味しさのこだわり</a>
+                        </li>
+                    </ul><!-- /.drawer-list -->
+                    <ul class="drawer-list layer2">
+                        <li class="drawer-item">
+                            <a href="index.html#news">お知らせ</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="contact.html#contactHeaderLink">お問い合わせ</a>
+                        </li>
+                    </ul>
+                    <ul class="drawer-list layer3">
+                        <li class="drawer-item">
+                            <a href="contact.html">会社概要</a>
+                        </li>
+                        <li class="drawer-item">
+                            <a href="privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul><!-- /.drawer-list -->
+                </nav>
+            </div>                 
+            <!-- ハンバーガーメニュー部分 -->
+        </header>
+        <section class="main"> 
+            <div class="mainvisual">
+                        <img src="images/main1.png" class="mainvisual__contentImg" alt="">
+            </div>
+            <section class="concept" id="concept">
+                <figure class="conceptCopy__left">
+                <img src="images/main2.jpg" alt="美味しくて健康にいい">
+                </figure>
+                <div class="conceptCopy__right">
+                    <p class="conceptSubcopy">雑穀米は健康に良いけど、美味しくない？
+                    私たちは自信を持ってその意見を否定します。
+                    雑穀米は、美味しくて健康に良いんです。
+                    </p>
+                </div>
+            </section>
+            <section class="secAboutus" id="secAboutus">
+                <div class="secAboutus__content">
+                <ul class="secAboutus__list">
+                    <li class="secAboutus__listItem">
+                        <a href="our.html" class="secAboutus__listItemLinkpc secAboutus1"></a>
+                        <a href="our.html" class="secAboutus__listItemLinksp secAboutus1"></a>
+                        <div class="secAboutus__listItemTxtWrap">
+                            <p class="secAboutus__listItemTitle show">知る</p>
+                            <p class="secAboutus__listItemTxt show">私たちは美味しい雑穀米を販売する会社です。</p>
+                        </div>
+                    </li>
+                    <li class="secAboutus__listItem">
+                        <a href="recipe.html" class="secAboutus__listItemLinkpc secAboutus2"></a>
+                        <a href="recipe.html" class="secAboutus__listItemLinksp secAboutus2"></a>
+                        <div class="secAboutus__listItemTxtWrap">
+                            <p class="secAboutus__listItemTitle show">楽しむ</p>
+                            <p class="secAboutus__listItemTxt show">雑穀米を美味しく食べて欲しい。</p>
+                        </div>
+                    </li>
+                    <li class="secAboutus__listItem">
+                        <a href="pride.html" class="secAboutus__listItemLinkpc secAboutus3"></a>
+                        <a href="pride.html" class="secAboutus__listItemLinksp secAboutus3"></a>
+                        <div class="secAboutus__listItemTxtWrap">
+                            <p class="secAboutus__listItemTitle show">こだわる</p>
+                            <p class="secAboutus__listItemTxt show">美味しい雑穀米へのこだわりがあります。</p>
+                        </div>
+                    </li>    
+                </ul>
+                </div>
+            </section>
+            <section class="mainPhotolist scroll-effect">
+                <div class="aTop">
+                    <div class="aTop__content swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/photolist1.jpg" alt="雑穀米の食事１"></div>
+                            <div class="swiper-slide"><img src="images/photolist2.JPG" alt="雑穀米の食事2"></div>
+                            <div class="swiper-slide"><img src="images/photolist3.JPG" alt="雑穀米の食事3"></div>
+                            <div class="swiper-slide"><img src="images/photolist4.JPG" alt="雑穀米の食事4"></div>
+                            <div class="swiper-slide"><img src="images/photolist5.JPG" alt="雑穀米の食事5"></div>
+                        </div> 
+                    </div>
+                    <div class="aTop__content aTop__contentTextWrap"> 
+                        <p class="aTop__contentText">
+                        美味しくてカラダに良い<br>
+                            雑穀米生活をはじめよう。
+                        </p>
+                    </div> 
+                </div>
+                <div class="aBottom">
+                <div class="aBottom__contentA  swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/photolist6.jpg" alt="雑穀米の食事6"></div>
+                        <div class="swiper-slide"><img src="images/photolist7.jpg" alt="雑穀米の食事7"></div>
+                        <div class="swiper-slide"><img src="images/photolist8.JPG" alt="雑穀米の食事8"></div>
+                        <div class="swiper-slide"><img src="images/photolist9.JPG" alt="雑穀米の食事9"></div>    
+                    </div> 
+                </div>
+                <div class="aBottom__contentB  swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/photolist10.jpg" alt="雑穀米の食事10"></div>
+                        <div class="swiper-slide"><img src="images/photolist11.jpg" alt="雑穀米の食事11"></div>
+                        <div class="swiper-slide"><img src="images/photolist12.jpg" alt="雑穀米の食事12"></div>
+                        <div class="swiper-slide"><img src="images/photolist13.jpg" alt="雑穀米の食事13"></div>
+                        <div class="swiper-slide"><img src="images/photolist14.jpg" alt="雑穀米の食事14"></div>
+                        <div class="swiper-slide"><img src="images/photolist15.jpg" alt="雑穀米の食事15"></div>                            
+                    </div> 
+                </div>
+                </div>
+            </section>
+            <section id="product" class="Product scroll-effect">
+                <div class="contents">
+                    <h3 class="product__left">
+                        <div class="section__enTitle">PRODUCT</div>
+                        <div class="section__jaTitle">商品一覧</div>
+                    </h3>
+                    <!-- カルーセル -->
+                    <div class="wrap"> 
+                        <div class="item">
+                            <figure class="productImageWrap">      
+                            <img src="images/product1.jpg" alt="福っくら御膳">
+                            </figure>  
+                        </div>
+                        <div class="item">
+                            <figure class="productImageWrap">
+                            <img src="images/product2.jpg" alt="五穀米膳">
+                            </figure>
+                        </div>
+                        <div class="item">
+                            <figure class="productImageWrap">      
+                            <img src="images/product3.jpg" alt="五穀米">
+                            </figure> 
+                        </div>
+                        <div class="item">
+                            <figure class="productImageWrap">
+                            <img src="images/product4.jpg" alt="もち麦膳">
+                            </figure>
+                        </div>
+                        <div class="item">
+                            <figure class="productImageWrap">        
+                            <img src="images/product5.jpg" alt="麦の膳">
+                            </figure>
+                        </div>
+                        <div class="item">
+                            <figure class="productImageWrap">
+                            <img src="images/product6.jpg" alt="福っくら御膳もち">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- カルーセル -->       
+                </div>
+                <p class="product__notice">ネット販売は準備中です。
+                    もうしばらくお待ちください。
+                </p>
+            </section>
+            <section class="mainNews__wrap scroll-effect"  id="news">
+                <div class="mainNews__wrapHeading leftTop">
+                    <div class="title1">
+                        <p class="section__enTitle">NEWS</p>
+                        <h2 class="h section__jaTitle">お知らせ</h2>
+                    </div>
+                    <div class="c-link1 pc-only">
+                        <a href=""><span>VIEW ALL     →</span></a>
+                    </div>
+                </div><!-- /.p-top__news-heading -->
+                <div class="p-top__news-content rightBottom">
+                    <ul>
+                        <li>
+                            <a href="" >
+                                <p class="date">2020.10.30</p>
+                                <h3 class="h">オンライン販売を開始しました</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" >
+                                <p class="date">2020.10.30</p>
+                                <h3 class="h">オンライン販売を開始しました</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="date">2020.10.30</p>
+                                <h3 class="h">オンライン販売を開始しました</h3>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="c-link1 sp-only">
+                        <a href=""><span>VIEW ALL     →</span></a>
+                    </div>
+                </div><!-- /.p-top__news-content -->
+            </section>
+
+            <footer id="footer">
+                <!-- ▼フッター -->
+                <div class="footer">
+                    <div class="footerTop">
+                        <div class="footerLeft">
+                            <h2 class="footerTitle">SITE MAP</h2>
+                            <div class="whiteLogo__pc">
+                            <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                            </div>
+                    </div>
+                        <ul class="footerCenter">
+                            <a href="index.html">
+                                <li>ホーム</li>
+                            </a>
+                            <a href="index.html#product">
+                                <li>商品一覧</li>
+                            </a>
+                            <a href="our.html">
+                                <li>私たちについて</li>
+                            </a>
+                            <a href="recipe.html">
+                                <li>雑穀米の楽しみ方</li>
+                            </a>
+                            <a href="pride.html">
+                                <li>美味しさのこだわり</li>
+                            </a>
+                            
+                           
+                        </ul>
+                        <ul class="footerRight">
+                            <a href="contact.html">
+                                <li>会社概要</li>
+                            </a>
+                            <a href="contact.html#contactHeaderLink" class="footerForm">
+                                <li>お問い合わせ</li>
+                            </a>
+                            <a href="privacy.html">
+                                <li>プライバシーポリシー</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="whiteLogo__sp">
+                        <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                    </div>
+                    <p class="footer__copyright">© 2020  有限会社五穀米販売 All Right Reserved.</p>
+                </div>
+            </footer>
+        </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hmo3nzv.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+JP:wght@100;400&family=Roboto:ital,wght@0,300;1,700&family=Spartan:wght@400;800&display=swap" rel="stylesheet">
+        <title>美味しさのこだわり</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            
+            <header class="header" id="header">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="有限会社五穀米"></a></div><!-- /.logo --> 
+                <!-- ハンバーガーメニュー部分 -->
+                <div class="drawer">                
+                    <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                    <input type="checkbox" id="drawer-check" class="drawer-hidden" >                
+                    <!-- ハンバーガーアイコン -->
+                    <label for="drawer-check" class="drawer-open"><span></span></label>                
+                    <!-- メニュー -->
+                    <nav class="drawer-content">
+                        <ul class="drawer-list layer1">
+                            <li class="drawer-item">
+                                <a href="index.html">TOPページ</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="index.html#product">商品一覧</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="our.html">私たちについて</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="recipe.html">雑穀米の楽しみ方（炊き方&レシピ）</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="pride.html">美味しさのこだわり</a>
+                            </li>
+                        </ul><!-- /.drawer-list -->
+                        <ul class="drawer-list layer2">
+                            <li class="drawer-item">
+                                <a href="index.html#news">お知らせ</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="contact.html#contactHeaderLink">お問い合わせ</a>
+                            </li>
+                        </ul>
+                        <ul class="drawer-list layer3">
+                            <li class="drawer-item">
+                                <a href="contact.html">会社概要</a>
+                            </li>
+                            <li class="drawer-item">
+                                <a href="privacy.html">プライバシーポリシー</a>
+                            </li>
+                        </ul><!-- /.drawer-list -->
+                    </nav>
+                </div>                 
+                <!-- ハンバーガーメニュー部分 -->
+            </header>
+        
+
+            <section id="pride">
+                <div class="pridesection">                
+                    <div class="line">
+                        <div class="pride__lead">
+                            <div class="pride__leadwrapper">
+                                <h1>PRIDE</h1>
+                                <p class="pride__leadtext">美味しい雑穀米を見極める際、
+                                    上の３つがポイントであると考えます。
+                                    だからこそ私たちはこの３つにこだわっています。</p>
+                                <div class="pride__wrap">                        
+                                    <div class="pride__circle">
+                                        <div class="pride__p">
+                                        <p>Origin</p>
+                                        <p class="pride__ja">産地</p> 
+                                        </div>        
+                                    </div>
+                                    <div class="pesticides pride__circle">
+                                        <div class="pride__p">
+                                        <p>Pesticides</p>
+                                        <p class="pride__ja">農薬</p>
+                                        </div>
+                                    </div>
+                                    <div class="quality pride__circle">
+                                        <div class="pride__p">
+                                        <p>Quality</p>
+                                        <p class="pride__ja">品質</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pride__point scroll-effect">
+                            <h2 class="pride__point__title">すべて国内産</h2>
+                            <figure class="pride__point__imgWrap">
+                                <img src="images/pride1.jpg" alt="お米の写真">
+                            </figure>
+                            
+                            <p class="pride__pointArticle">国内で流通している雑穀の９０パーセント以上が、中国や東南アジアからの輸入原料で
+                                あるということを知っていましたか？当社は国内産にこだわりがあります。国内産の雑穀米は、日本で育った穀物だからこそ、私たち日本人の好む味や食感に仕上がっており、何より日本のお米にすごく合うんです。
+                            </p>
+                            <div class="pride__circle__mini">
+                                <div class="pride__p">
+                                    <p>Origin</p>
+                                    <p class="pride__ja">産地</p> 
+                                </div>        
+                            </div>
+
+                       </div>                
+                       <div class="pride__point scroll-effect">
+                            <h2 class="pride__point__title">農薬の制限</h2>
+                            <figure class="pride__point__imgWrap">
+                                <img src="images/pride2.jpg" class="pride__point__img" alt="稲の写真">
+                            </figure>                            
+                            <p class="pride__pointArticle">雑穀米を食べた時に、変な味や匂いを感じた経験がある人は、もしかしたら農薬が原因かもしれません。農薬の含有量は味にも健康にも影響します。当社の販売する商品は農薬について通常使用量の50～67％減という厳しい基準を設け、残留分析検査を合格したもののみ使用するため、味にはもちろん、消費者の健康第一につくられております。</p>
+                            <div class="pride__circle__mini">
+                                <div class="pride__p">
+                                <p>Pestisides</p>
+                                <p class="pride__ja">農薬</p> 
+                                </div>        
+                            </div>                    
+                        </div>
+                        <div class="pride__point scroll-effect">
+                            <h2 class="pride__point__title">一粒への思い</h2>
+                            <figure class="pride__point__imgWrap">
+                                <img src="images/pride3.jpg" class="pride__point__img" alt="雑穀米の写真">
+                            </figure>                           
+                            <p class="pride__pointArticle">雑穀米を製造する上で大切な工程の一つが異物除去作業です。この精度は味や食感に大きく
+                                関わります。ほとんどの会社はこの工程を機械で行うのですが、当社の商品は目視で検品を
+                                行い、手作業で取り除くことに拘っています。こうすることで、機械で見落とされてしまう
+                                ような異物から破砕した米まで取り除き、より安全で想いの詰まった雑穀米に仕上げています。
+                                </p>
+                            <div class="pride__circle__mini">
+                                <div class="pride__p">
+                                <p>Quality</p>
+                                <p class="pride__ja">品質</p> 
+                                </div>        
+                            </div>                   
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <!-- ▼フッター -->
+                <div class="footer">
+                    <div class="footerTop">
+                        <div class="footerLeft">
+                            <h2 class="footerTitle">SITE MAP</h2>
+                            <div class="whiteLogo__pc">
+                            <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                            </div>
+                    </div>
+                        <ul class="footerCenter">
+                            <a href="index.html">
+                                <li>ホーム</li>
+                            </a>
+                            <a href="index.html#product">
+                                <li>商品一覧</li>
+                            </a>
+                            <a href="our.html">
+                                <li>私たちについて</li>
+                            </a>
+                            <a href="recipe.html">
+                                <li>雑穀米の楽しみ方</li>
+                            </a>
+                            <a href="pride.html">
+                                <li>美味しさのこだわり</li>
+                            </a>
+                            
+                           
+                        </ul>
+                        <ul class="footerRight">
+                            <a href="contact.html">
+                                <li>会社概要</li>
+                            </a>
+                            <a href="contact.html#contactHeaderLink" class="footerForm">
+                                <li>お問い合わせ</li>
+                            </a>
+                            <a href="privacy.html">
+                                <li>プライバシーポリシー</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="whiteLogo__sp">
+                        <img src="images/logoWhite.png" alt="有限会社五穀米販売">
+                    </div>
+                    <p class="footer__copyright">© 2020  有限会社五穀米販売 All Right Reserved.</p>
+                </div>
+            </footer>
+
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
